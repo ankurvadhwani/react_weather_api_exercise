@@ -6,22 +6,12 @@ p {
 body{
   margin: 20px;
 }
-.div {
-  height: auto;
-  width: 100vw;
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(auto-fill, 100px);
-  justify-content: space-around;
-  grid-auto-flow: rows;
-  background: lightblue;
-  transition: 0.2s;
-}
 
 .citybox {
-  height: 100px;
+  display:inline-flex;
+  width: auto;
+  height: auto;
   margin: 25px;
   background: grey;
-  display:block;
 }
 
